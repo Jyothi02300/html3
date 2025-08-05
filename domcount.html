@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <p id = "count">0</p>
+    <button onclick="increase()">+1</button>
+    <button onclick="decrease()">-1</button>
+    <script>
+        let num = 10;
+        function increase(){
+            num++;
+            document.getElementById("count").innerText = num;
+            document.body.style.backgroundColor = "green";
+        }
+        function decrease() {
+            num--;
+            document.getElementById("count").innerText  = num;
+            document.body.style.backgroundColor = "pink";
+        }
+    </script>
+</body>
+</html>
