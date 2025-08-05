@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <marquee>JOB Application form is Open Now</marquee>
+    <h1>JOB APPLICATION FORM</h1>
+    <form action="practice.html" method="get">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Name of the applicante" required>
+        </div>
+        <div>
+            <label for="phn no">Phone No:</label>
+            <input type="number" id="phn no" name="phn no" placeholder="Phone No" required>
+        </div>
+        <div>
+            <label for="email">Gmail</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div>
+            <label for="psw">Password</label>
+            <input type="password" id="psw" name="password" required>
+        </div>
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label> 
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="experience">Years of Experience</label>
+            <input type="number" id="experience" name="experience" min="0" placeholder="e.g.,3" required>
+        </div>
+    </form>
+</body>
+</html>
